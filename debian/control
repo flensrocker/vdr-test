@@ -1,0 +1,14 @@
+Source: vdr-test
+Section: video
+Priority: extra
+Maintainer: Lars Hanisch <dvb@flensrocker.de>
+Build-Depends: debhelper (>= 8), vdr-dev (>= 1.7.27), pkg-config
+Standards-Version: 3.9.1
+Homepage: https://github.com/flensrocker/vdr-test
+
+Package: vdr-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Just a test package
+ for testing github webhooks
+
